@@ -6,8 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
+int main() {
   char input[5];
   int ok = 0;
 
@@ -15,20 +14,16 @@ int main()
   printf("\nEnter admin password: ");
   gets(input);
 
-  if (strcmp(input, "toor") != 0)
-  {
+  if (strcmp(input, "toor") != 0)   {
     printf("\nPassword error\n");
-  }
-  else
-  {
+  } else {
     printf("\nPassword ok\n");
     ok = 1;
   }
 
-  if (ok)
-  {
+  if (ok) {
     printf("\n**Administrator privileges**\n\n");
-    //program detais
+    //program details
   }
 
   return 0;
